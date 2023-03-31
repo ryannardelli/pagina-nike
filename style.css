@@ -45,22 +45,22 @@ span#burguer {
     order: 0;
 }
 
-menu {
+nav {
     display: none;
 }
 
-menu > ul > li {
+nav > ul > li {
     list-style-type: none;
     font-weight: bolder;
     margin: 10px;
 }
 
-menu > ul > li > a {
+nav > ul > li > a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.801);
 }
 
-menu a:hover {
+nav a:hover {
     color: white;
 }
 
