@@ -11,7 +11,8 @@
 <body>
     <header class="container">
         <img src="imagens/icone-nike-32px.png" alt="Nike">
-        <menu>
+        <span class="material-symbols-outlined" id="burguer" onclick="ClickMenu()">menu</span>
+        <menu id="itens">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Conheça nossa loja</a></li>
@@ -27,9 +28,19 @@
             </section>
 
             <section>
-                <img src="imagens/imagem-nike.png" alt="Nike" height="300px" width="300px">
+                <img src="imagens/tenis-nike.jpg" alt="Nike" height="300px" width="300px">
             </section>
         </main>
     </header>
+
+    <script>
+        function ClickMenu () {
+            if (itens.style.display == 'none') {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 </html>

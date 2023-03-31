@@ -32,12 +32,24 @@ header {
 
 header.container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+header.container > img {
+    padding: 10px;
+}
+
+span#burguer {
+    padding: 10px;
+    cursor: pointer;
+    order: 0;
+}
+
+menu {
+    display: none;
 }
 
 menu > ul > li {
-    display: inline-block;
     list-style-type: none;
     font-weight: bolder;
     margin: 10px;
@@ -81,10 +93,10 @@ main > section > a {
     font-size: 1.5em;
     font-weight: bolder;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.589);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.404);
     text-decoration: none;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    margin-left: 150px;
+    margin-left: 25%;
     padding: 10px;
     background-color: #fccb6a;
     color: var(--cor4);
@@ -94,4 +106,9 @@ main > section > a:hover {
     border: 2px solid var(--cor1);
     transform: translate(-3px, -3px);
     transition: transform, .3s, 5s;
+}
+
+main > section img {
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.568);
 }
