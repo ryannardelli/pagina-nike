@@ -29,12 +29,12 @@ header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
 }
 
-header.container {
+div.container {
     display: flex;
     justify-content: space-between;
 }
 
-header.container > img {
+div.container > img {
     padding: 10px;
 }
 
@@ -49,6 +49,9 @@ nav {
 }
 
 nav > ul > li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     list-style-type: none;
     font-weight: bolder;
     margin: 10px;
