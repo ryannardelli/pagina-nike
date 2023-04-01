@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media (min-width:768px) {
+    
+    nav {
+        display: block;
+    }
+
+    span#burguer {
+        display: none;
+    }
+
+    nav > ul > li {
+        display: inline-block;
+        list-style-type: none;
+        font-weight: bolder;
+        margin: 10px;
+    }
+}
