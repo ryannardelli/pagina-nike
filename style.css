@@ -81,6 +81,7 @@ main > section > h1 {
     font-family: 'Cinzel', serif;
     font-size: 3em;
     font-weight: bolder;
+    text-align: center;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.623);
     margin: 10px;
     padding: 10px;
@@ -89,6 +90,7 @@ main > section > h1 {
 
 main > section > h2 {
     font-size: 1.5em;
+    text-align: center;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
     margin: 10px;
     padding: 10px;
@@ -97,7 +99,8 @@ main > section > h2 {
 
 main section div {
     margin: 30px;
-    margin-left: 15%;
+    text-align: center;
+    
 }
 
 main > section > div > a {
