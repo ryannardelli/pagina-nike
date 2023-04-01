@@ -1,9 +1,26 @@
 @charset "UTF-8";
 
 @media (min-width:768px) {
-    
+
+    div.container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    div.container > img {
+        display: none;
+    }
+
     nav {
         display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    nav > img {
+        padding: 10px;
     }
 
     span#burguer {
@@ -15,5 +32,9 @@
         list-style-type: none;
         font-weight: bolder;
         margin: 10px;
+    }
+
+    main.caixa {
+        flex-wrap: nowrap;
     }
 }

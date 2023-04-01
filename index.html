@@ -16,6 +16,7 @@
             <span class="material-symbols-outlined" id="burguer" onclick="ClickMenu()">menu</span>
         </div>
         <nav id="itens">
+            <img src="imagens/icone-nike-32px.png" alt="Nike" id="imagem-nav">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Conheça nossa loja</a></li>
@@ -38,8 +39,10 @@
 
     <script>
         function ClickMenu () {
+            var imagem = window.document.getElementById('imagem-nav')
             if (itens.style.display == 'none') {
                 itens.style.display = 'block'
+                imagem.style.display = 'none'
             } else {
                 itens.style.display = 'none'
             }
