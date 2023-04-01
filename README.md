@@ -27,7 +27,7 @@
 </p>    
 
 <p>
-    Utilizei um modelo para me inspirar na criação desta página, mas a imagem utilizada no projeto, a paleta de cores, a fonte etc foi escolhida exclusivamente por mim.
+    Utilizei um modelo para me inspirar na criação desta página, mas as imagens utilizadas no projeto, a paleta de cores, a fonte etc foi escolhida exclusivamente por mim.
 </p>    
 
 
