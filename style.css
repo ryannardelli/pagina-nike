@@ -111,14 +111,12 @@ main > section > div > a {
     text-decoration: none;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     padding: 13px;
-    background-color: #fccb6a;
+    background-color: #FFC857;
     color: var(--cor4);
 }
 
 main > section > div > a:hover {
-    border: 2px solid var(--cor1);
-    transform: translate(-3px, -3px);
-    transition: transform, .3s, 3s;
+    background-color: #fac04b;
 }
 
 main > section img {
