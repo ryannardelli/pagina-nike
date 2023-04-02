@@ -17,7 +17,7 @@
 <h2>Responsividade</h2>
 
 <p>
-    Para este projeto eu adotei a metodologia mobile first para criar uma maior performace na página, como também utilizei o "menu hamburguer", na tela de celulares, para criar uma maior organização e facilitar a navegação do visitante.
+    Para este projeto eu adotei a metodologia mobile first para criar uma maior performace na página, como também utilizei o "menu hambúrguer", na tela de celulares, para criar uma maior organização e facilitar a navegação do visitante.
 </p>
 
 <h2>Observações</h2>
