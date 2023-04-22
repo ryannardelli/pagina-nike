@@ -1,5 +1,7 @@
 <h1>Landing Page</h1>
 
+<img src="imagens/print-tela.png">
+
 <p>
     Este projeto se trata de uma Landing Page que tem como intuito induzir o usuário a interagir e conhecer os serviços da marca mundialmente conhecida Nike.
 </p>
